@@ -1,4 +1,3 @@
-use jubjub::Scalar;
 use tokio::sync::oneshot::Sender;
 use std::future::Ready;
 
