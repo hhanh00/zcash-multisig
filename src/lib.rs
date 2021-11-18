@@ -31,6 +31,8 @@ pub async fn run_aggregator_service(
 pub async fn run_signer_service(
     _port: u16,
     _secret: &str,
+    _address: &str,
+    _amount: u64,
 ) -> anyhow::Result<Ready<()>> {
     unimplemented!()
 }
